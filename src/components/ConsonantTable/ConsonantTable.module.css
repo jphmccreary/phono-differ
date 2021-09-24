@@ -1,3 +1,25 @@
 .table {
   display: grid;
+  min-width: 900px;
+  max-width: 60%;
+}
+
+.rowLabel {
+
+}
+
+.rowLabel div {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.columnLabel div {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-50deg);
 }

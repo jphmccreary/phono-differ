@@ -617,6 +617,8 @@ const charts = {
         {
             name: 'alveolar lateral approximant',
             symbol: 'l',
+            row: 9,
+            column: 9,
             consonantal: 1,
             sonorant: 1,
             continuant: 1,
@@ -1047,6 +1049,8 @@ const charts = {
         {
             name: 'retroflex lateral approximant',
             symbol: 'ɭ',
+            row: 9,
+            column: 13,
             consonantal: 1,
             sonorant: 1,
             continuant: 1,
@@ -1440,6 +1444,8 @@ const charts = {
         {
             name: 'velar lateral approximant',
             symbol: 'ʟ',
+            row: 9,
+            column: 17,
             consonantal: 1,
             sonorant: 1,
             continuant: 1,
@@ -2226,6 +2232,8 @@ const charts = {
         {
             name: 'palatal lateral approximant',
             symbol: 'ʎ',
+            row: 9,
+            column: 15,
             consonantal: 1,
             sonorant: 1,
             continuant: 1,

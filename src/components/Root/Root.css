@@ -1,3 +1,9 @@
+:root {
+  --mean-green: #00853e;
+  --global-color-primary: #4d8b6e;
+  --global-color-secondary: #779fa1;
+}
+
 .App {
   text-align: center;
 }

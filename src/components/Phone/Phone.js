@@ -10,10 +10,12 @@ export default function Phone (props) {
     console.log(`${symbol}: ${style.gridColumn}, ${style.gridRow}`);
     return (
         <div
-            className={styles.phone}
+            className={styles.cell}
             style={style}
         >
-            {symbol}
+            <div className={styles.phone}>
+                {symbol}
+            </div>
         </div>
     );
 }

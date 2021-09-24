@@ -1,6 +1,5 @@
 import './Root.css';
-import ConsonantTable from '../ConsonantTable/ConsonantTable';
-import charts from '../../charts';
+import PageContainer from '../PageContainer/PageContainer';
 
 function Root() {
   return (
@@ -20,7 +19,7 @@ function Root() {
     //     </a>
     //   </header>
     // </div>
-    <ConsonantTable chart={charts.consonants} />
+    <PageContainer />
   );
 }
 
