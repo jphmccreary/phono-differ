@@ -2385,7 +2385,7 @@ const chart = {
         high: 1,
         low: -1,
         front: -1,
-        back: 1,
+        back: -1,
         tense: 0,
     },
     [i++]: {

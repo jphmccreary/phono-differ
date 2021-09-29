@@ -1,0 +1,19 @@
+.featureDisplay {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  justify-content:space-around;
+}
+
+.featureDisplay h3 {
+  align-self: center;
+  margin-bottom: 5px;;
+}
+
+.plusFeatures, .minusFeatures {
+  display: flex;
+  justify-content: center;
+  /* font-weight: bold; */
+  /* height: 20px; */
+  flex-basis: 20px;
+}

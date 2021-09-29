@@ -65,9 +65,11 @@ const FeatureDisplay = props => {
 
     return (
         <div className={styles.featureDisplay}>
+            <h3>[+features]:</h3>
             <div className={styles.plusFeatures}>
                 {selectedPhones.length > 0 && plusFeatures.map((featureName, index) => <Feature key={index} plusOrMinus={'+'} name={featureNames[featureName]} />)}
             </div>
+            <h3>[-features]:</h3>
             <div className={styles.minusFeatures}>
                 {selectedPhones.length > 0 && minusFeatures.map((featureName, index) => <Feature key={index} plusOrMinus={'-'} name={featureNames[featureName]} />)}
             </div>
