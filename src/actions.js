@@ -23,6 +23,5 @@ export function toggleManyPhones (phoneIDList) {
 export function toggleNightMode () {
     return {
         type: TOGGLE_NIGHT_MODE,
-        // ? does there need to be a payload?
     }
 }

@@ -5,7 +5,7 @@
 }
 
 .cell:hover {
-
+  cursor: pointer;
 }
 
 .cell:hover .cellInner, .cellInner.selected {
@@ -16,7 +16,6 @@
   background-color: var(--mean-green);
   color: white;
 }
-
 
 .cellInner {
   position: relative;
