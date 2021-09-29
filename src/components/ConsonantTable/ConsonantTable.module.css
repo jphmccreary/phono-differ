@@ -1,25 +1,49 @@
+:root {
+  --phone-dimension: 50px;
+  --table-gap: 3px;
+}
+
 .table {
-  display: grid;
+  display: inline-grid;
   min-width: 900px;
-  max-width: 60%;
+  /* max-width: 60%; */
+  margin-top: 50px;
+  gap: var(--table-gap);
+  align-self: center;
 }
 
 .rowLabel {
-
+  border-right: 1px solid black;
 }
 
 .rowLabel div {
   display: inline-block;
   position: relative;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 100%;
+  transform: translate(-100%, -50%);
+  padding-right: 10px;
+  /* right: 100%; */
+  /* transform: translate(-50%, -50%); */
+}
+
+.columnLabel {
+  border-bottom: 1px solid black;
 }
 
 .columnLabel div {
   display: inline-block;
+  white-space: nowrap;
+  overflow: visible;
+
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) rotate(-50deg);
+  transform: translate(-50%, -50%);
+  padding-bottom: 10px;;
+}
+
+.columnLabel div, .rowLabel div {
+  white-space: nowrap;
+  overflow: visible;
 }

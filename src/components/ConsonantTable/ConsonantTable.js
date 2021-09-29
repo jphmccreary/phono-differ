@@ -63,9 +63,10 @@ export default function ConsonantTable (props) {
             <div className={styles.columnLabel} style={{gridRow: 1, gridColumnStart: 22, gridColumnEnd: 'span 2'}}>
                 <div>glottal</div>
             </div>
-            {chart.reduce((acc, current, index) => {
-                if (current.column != null && current.row != null)
-                    acc.push(<Phone key={index} phone={current} />);
+            {Object.getOwnPropertyNames(chart).reduce((acc, current, index) => {
+                const currentChartElement = chart[current];
+                if (currentChartElement.consonantTable === true)
+                    acc.push(<Phone key={index} phone={currentChartElement} id={current} />);
                 return acc;
             }, [])}
         </div>
