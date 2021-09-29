@@ -1,14 +1,21 @@
 # phono-differ
 
-This is a tool for students of phonetics and phonology. To use it, select sounds from the charts on the page, and their distinctive features will be compared. Shared [+features] and [-features] will be shown in the web browser. When only two sounds are selected, you can see exactly which features change between them.
+## How it works
+I made this tool to compare sounds' distinctive features without staring at a chart, which can be tedious and burdensome on the eyes. To use it, select sounds from the charts on the page, and their shared features will be listed at the top. When exactly two sounds are selected, you can see which features change between them.
 
-The tool uses features from the Hayes (2009) chart provided to our Fall 2021 LING 4040 class @ UNT, with the following exceptionsː
+## Hayes chart
+The tool uses features from the Hayes (2009) chart provided to our Fall 2021 LING 4040 class at UNT, with the following exceptions (some of which may be in need of correction):
 - [f] and [v] are [+strident].
 - [ʟ] is [+lateral].
 - The labiodental flap [ⱱ] was missing and has been added.
 - The velar approximant [ɰ] was missing and has been added.
 - Some of the "fronted velars" and "backed velars" from the chart are not included, for now.
 - If something was missing from the Hayes chart, I made my best guess at its features.
-- **I copied the features from the chart by hand, so there's probably a ton of mistakes. If you see any, please let me know!**
+- **I copied the features from the chart by hand, so there's probably a ton of mistakes. If you see any (or you know better than me or Hayes), please let me know!**
 
-I would like to add to this project and make it as cool and useful as possible. If you have any suggestions or catch any errors, please contact me, Joseph McCreary, at ReaganMcCreary@my.unt.edu. If you're feeling spicy, create an issue on GitHub, or submit a pull request.
+## Plans / Corrections
+I would like to add to this project and make it as cool and useful as possible. If you have any suggestions or catch any errors, please contact me, Joseph McCreary, at ReaganMcCreary@my.unt.edu. Or, if you're feeling spicy, create an issue on GitHub or submit a pull request. Currently I'm planning to add:
+- Ability to reverse the lookup process, ie, users can set features in order to highlight the cooresponding sounds on the charts.
+- Ability to select entire rows/columns.
+- Ability to play a recording of each sound (ideally with some kind of dropdown to select different speakers).
+- Night mode
