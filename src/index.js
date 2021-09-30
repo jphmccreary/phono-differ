@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Root from './components/Root/Root';
 
-import { createStore, applyMiddleware, compose } from 'redux';
+import { createStore, compose } from 'redux'; //? applyMiddleware
 import { selectionReducer } from './reducers';
 import defaultState from './defaultState';
 

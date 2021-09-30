@@ -1,4 +1,3 @@
-import { connect } from 'react-redux';
 import Phone from '../Phone/Phone';
 import styles from './AffricateTable.module.css';
 import chart from '../../charts';
@@ -20,8 +19,4 @@ const AffricateTable = props => {
     );
 }
 
-const mapStateToProps = state => {
-
-}
-
-export default connect(mapStateToProps)(AffricateTable);
+export default AffricateTable;

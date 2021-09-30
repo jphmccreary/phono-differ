@@ -6,7 +6,9 @@ Object.getOwnPropertyNames(chart).forEach(name => {
     phones[name] = false;
 });
 
-export default {
+const state  = {
     phones: phones,
     nightMode: false,
-};
+}
+
+export default state;
