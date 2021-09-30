@@ -18,3 +18,8 @@
   /* height: 20px; */
   /* flex-basis: 20px; */
 /* } */
+
+.featureDisplay {
+  height: 200px;
+  margin-bottom: 50px;
+}
