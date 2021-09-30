@@ -1,6 +1,8 @@
 import styles from './ConsonantTable.module.css';
 import Phone from '../Phone/Phone';
 
+// TODO ? should we separate consonants/affricates/vowels/etc OUTSIDE of this function? create a new list so that we don't have to filter the chart every time the component is rendered?
+
 export default function ConsonantTable (props) {
     const { chart } = props;
 

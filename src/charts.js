@@ -211,7 +211,7 @@ const chart = {
         delayedRelease: 1,
         approximant: -1,
         tap: -1,
-        trill: 1,
+        trill: -1,
         nasal: -1,
         voice: -1,
         spreadGlottis: -1,
@@ -243,7 +243,7 @@ const chart = {
         delayedRelease: 1,
         approximant: -1,
         tap: -1,
-        trill: 1,
+        trill: -1,
         nasal: -1,
         voice: 1,
         spreadGlottis: -1,
@@ -2391,13 +2391,14 @@ const chart = {
     [i++]: {
         name: 'voiceless labiodental affricate',
         symbol: 'p͡f',
+        affricateTable: true,
         consonantal: 1,
         sonorant: -1,
         continuant: -1,
         delayedRelease: 1,
         approximant: -1,
         tap: -1,
-        trill: 1,
+        trill: -1,
         nasal: -1,
         voice: -1,
         spreadGlottis: -1,
@@ -2420,6 +2421,7 @@ const chart = {
     [i++]: {
         name: 'voiceless alveolar affricate',
         symbol: 't͡s',
+        affricateTable: true,
         consonantal: 1,
         sonorant: -1,
         continuant: -1,
@@ -2449,6 +2451,7 @@ const chart = {
     [i++]: {
         name: 'voiced alveolar affricate',
         symbol: 'd͡z',
+        affricateTable: true,
         consonantal: 1,
         sonorant: -1,
         continuant: -1,
@@ -2478,6 +2481,7 @@ const chart = {
     [i++]: {
         name: 'voiceless alveolar lateral affricate',
         symbol: 't͡ɬ',
+        affricateTable: true,
         consonantal: 1,
         sonorant: -1,
         continuant: -1,
@@ -2507,6 +2511,7 @@ const chart = {
     [i++]: {
         name: 'voiceless alveo-palatal affricate',
         symbol: 't͡ʃ',
+        affricateTable: true,
         consonantal: 1,
         sonorant: -1,
         continuant: -1,
@@ -2536,6 +2541,7 @@ const chart = {
     [i++]: {
         name: 'voiced alveo-palatal affricate',
         symbol: 'd͡ʒ',
+        affricateTable: true,
         consonantal: 1,
         sonorant: -1,
         continuant: -1,
@@ -2565,6 +2571,7 @@ const chart = {
     [i++]: {
         name: 'voiceless velar affricate',
         symbol: 'k͡x',
+        affricateTable: true,
         consonantal: 1,
         sonorant: -1,
         continuant: -1,
@@ -2594,6 +2601,7 @@ const chart = {
     [i++]: {
         name: 'voiceless labial-velar affricate',
         symbol: 'k͡p',
+        affricateTable: true,
         consonantal: 1,
         sonorant: -1,
         continuant: -1,
@@ -2623,6 +2631,7 @@ const chart = {
     [i++]: {
         name: 'voiced labial-velar affricate',
         symbol: 'g͡b',
+        affricateTable: true,
         consonantal: 1,
         sonorant: -1,
         continuant: -1,
@@ -2652,6 +2661,7 @@ const chart = {
     [i++]: {
         name: 'voiceless alveolopalatal affricate',
         symbol: 't͡ɕ',
+        affricateTable: true,
         consonantal: 1,
         sonorant: -1,
         continuant: -1,
@@ -2681,6 +2691,7 @@ const chart = {
     [i++]: {
         name: 'voiced alveolopalatal affricate',
         symbol: 'd͡ʑ',
+        affricateTable: true,
         consonantal: 1,
         sonorant: -1,
         continuant: -1,

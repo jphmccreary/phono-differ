@@ -1,10 +1,10 @@
 import styles from './Feature.module.css';
 
 const Feature = props => {
-    const { plusOrMinus, name } = props;
+    const { plusOrMinus, name, isFirst, isLast } = props;
     return (
         <div className={styles.feature}>
-            [{plusOrMinus}{name}]
+            {(isFirst) && '['}{plusOrMinus}{name}{isLast ? ']' : <span>,&nbsp;</span>}
         </div>
     );
 }

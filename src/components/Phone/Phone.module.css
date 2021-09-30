@@ -25,7 +25,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   box-shadow: 1px 1px 3px black;
-  transition: box-shadow .25s ease-out;
+  transition: box-shadow .12s ease-out;
 }
 
 .phone {
