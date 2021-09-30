@@ -1,3 +1,8 @@
+:root {
+  --phone-dimension: 50px;
+  --table-gap: 3px;
+}
+
 .cell {
   height: var(--phone-dimension);
   width: var(--phone-dimension);

@@ -1,15 +1,8 @@
-:root {
-  --phone-dimension: 50px;
-  --table-gap: 3px;
-}
-
 .table {
   display: inline-grid;
-  min-width: 900px;
-  /* max-width: 60%; */
   margin-top: 50px;
   gap: var(--table-gap);
-  align-self: center;
+  /* align-self: center; */
 }
 
 .rowLabel {

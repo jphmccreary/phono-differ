@@ -1,4 +1,4 @@
-.featureDisplay {
+/* .featureDisplay {
   display: flex;
   flex-direction: column;
   height: 80px;
@@ -16,5 +16,5 @@
   justify-content: center;
   /* font-weight: bold; */
   /* height: 20px; */
-  flex-basis: 20px;
-}
+  /* flex-basis: 20px; */
+/* } */
