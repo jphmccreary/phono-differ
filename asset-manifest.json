@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/phono-differ/static/css/main.dddbf464.chunk.css",
-    "main.js": "/phono-differ/static/js/main.6b6f11f5.chunk.js",
-    "main.js.map": "/phono-differ/static/js/main.6b6f11f5.chunk.js.map",
+    "main.css": "/phono-differ/static/css/main.ae264bf7.chunk.css",
+    "main.js": "/phono-differ/static/js/main.0b891263.chunk.js",
+    "main.js.map": "/phono-differ/static/js/main.0b891263.chunk.js.map",
     "runtime-main.js": "/phono-differ/static/js/runtime-main.03984360.js",
     "runtime-main.js.map": "/phono-differ/static/js/runtime-main.03984360.js.map",
     "static/js/2.63335890.chunk.js": "/phono-differ/static/js/2.63335890.chunk.js",
     "static/js/2.63335890.chunk.js.map": "/phono-differ/static/js/2.63335890.chunk.js.map",
     "index.html": "/phono-differ/index.html",
-    "static/css/main.dddbf464.chunk.css.map": "/phono-differ/static/css/main.dddbf464.chunk.css.map",
+    "static/css/main.ae264bf7.chunk.css.map": "/phono-differ/static/css/main.ae264bf7.chunk.css.map",
     "static/js/2.63335890.chunk.js.LICENSE.txt": "/phono-differ/static/js/2.63335890.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.03984360.js",
     "static/js/2.63335890.chunk.js",
-    "static/css/main.dddbf464.chunk.css",
-    "static/js/main.6b6f11f5.chunk.js"
+    "static/css/main.ae264bf7.chunk.css",
+    "static/js/main.0b891263.chunk.js"
   ]
 }
