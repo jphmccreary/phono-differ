@@ -2,6 +2,7 @@
   display: inline-grid;
   margin-top: 50px;
   gap: var(--table-gap);
+  max-width: fit-content;
   /* align-self: center; */
 }
 
@@ -16,8 +17,6 @@
   left: 100%;
   transform: translate(-100%, -50%);
   padding-right: 10px;
-  /* right: 100%; */
-  /* transform: translate(-50%, -50%); */
 }
 
 .columnLabel {

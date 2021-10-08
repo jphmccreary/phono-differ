@@ -1,3 +1,16 @@
+.container {
+  display: inline-block;
+}
 .table {
-  display: grid;
+  display: inline-grid;
+  max-width: fit-content;
+}
+.table > div:nth-child(3n) {
+  grid-column: 3;
+}
+.table > div:nth-child(3n-1) {
+  grid-column: 2;
+}
+.table > div:nth-child(3n-2) {
+  grid-column: 1;
 }

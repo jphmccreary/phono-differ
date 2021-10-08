@@ -9,6 +9,7 @@ The tool uses features from the Hayes (2009) chart provided to our Fall 2021 LIN
 - [ʟ] is [+lateral].
 - The labiodental flap [ⱱ] was missing and has been added.
 - The velar approximant [ɰ] was missing and has been added.
+- The open-mid central unrounded vowel [ɜ] was missing and has been added. (This may be because it's has the exact same features as [ə])
 - Some of the "fronted velars" and "backed velars" from the chart are not included, for now.
 - If something was missing from the Hayes chart, I made my best guess at its features.
 - **I copied the features from the chart by hand, so there's probably a ton of mistakes. If you see any (or you know better than me or Hayes), please let me know!**
