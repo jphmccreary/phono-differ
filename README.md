@@ -18,6 +18,7 @@ The tool uses features from the Hayes (2009) chart provided to our Fall 2021 LIN
 I'm still working on it. Still have to add the vowel chart.
 
 I would like to add to this project and make it a good resource for other phono related tasks. If you have any suggestions or catch any errors, please contact me, Joseph McCreary, at ReaganMcCreary@my.unt.edu. Or create an issue on GitHub or submit a pull request. Currently I'm thinking about:
+- Show the feature delta when two sounds are selected.
 - Syllabic feature, which I just noticed in class is missing from the Hayes chart. (When added, make note of it above)
 - Reversing the lookup process, as in, users can set features in order to highlight the cooresponding sounds on the charts.
 - Selection of entire rows/columns.
